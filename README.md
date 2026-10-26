@@ -1,4 +1,4 @@
-# 🛡️ CloneProof AI
+# CloneProof AI
 
 ### AI-Powered Misinformation, Fake Website & Brand Impersonation Detection
 
@@ -14,7 +14,7 @@ supporting indicators.
 
 ------------------------------------------------------------------------
 
-## ✨ Key Features
+##  Key Features
 
 -   **Website risk analysis** --- assess URL and website-related signals
     that may indicate phishing or impersonation.
@@ -32,7 +32,7 @@ supporting indicators.
 -   **Machine-learning model loading** --- the backend loads trained
     model artifacts from the `models/` directory.
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Fraudulent websites may imitate trusted brands through lookalike
 domains, copied logos, misleading product listings, suspicious contact
@@ -43,7 +43,7 @@ CloneProof AI aims to make initial screening easier by analyzing
 available signals and presenting a clear, understandable risk
 assessment.
 
-## 💡 How It Works
+## How It Works
 
 1.  The user submits a website URL or provides supported input through
     the interface.
@@ -59,7 +59,7 @@ assessment.
 *The exact inputs and output fields depend on the current implementation
 and the models included in the repository.*
 
-## 🧰 Technology Stack
+## Technology Stack
 
   -----------------------------------------------------------------------
   Component                           Technology
@@ -80,7 +80,7 @@ and the models included in the repository.*
                                       repository)
   -----------------------------------------------------------------------
 
-## 📁 Project Structure
+## Project Structure
 
 The repository has included the following project areas:
 
@@ -98,7 +98,7 @@ CloneProof-AI/
 
 The exact files may change as development continues.
 
-## ⚙️ Requirements
+## Requirements
 
 -   Python 3.11 (the project has been developed with Python 3.11)
 -   Git
@@ -106,7 +106,7 @@ The exact files may change as development continues.
 -   A modern web browser
 -   Node.js and npm if the frontend has its own `package.json`
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the repository
 
@@ -220,7 +220,7 @@ curl -X POST "http://127.0.0.1:8000/YOUR_ENDPOINT" \
 Only test URLs that you are authorized to access. Avoid submitting
 private, authenticated, or sensitive URLs.
 
-## 🧪 Datasets and Model Training
+## Datasets and Model Training
 
 The development workflow has used datasets related to:
 
@@ -243,7 +243,7 @@ splitting should be checked before training. In particular:
 Run the training scripts provided in `src/train/` if present. Check each
 script's arguments and expected input paths before execution.
 
-## 📊 Interpreting Results
+## Interpreting Results
 
 A prediction is a **signal for further review**, not definitive proof. A
 legitimate site can look unusual, and a malicious site can evade
@@ -256,7 +256,7 @@ detection. For important decisions:
 4.  Report suspected scams through the appropriate platform or
     authority.
 
-## 🔐 Security and Privacy
+## Security and Privacy
 
 -   Do not store API keys, passwords, session cookies, or other secrets
     in source control.
@@ -271,7 +271,7 @@ detection. For important decisions:
 -   Do not upload private datasets or personally identifiable
     information without authorization.
 
-## 🛣️ Future Enhancements
+## Future Enhancements
 
 -   Add verified official-brand reference data and stronger domain
     similarity analysis.
@@ -285,7 +285,7 @@ detection. For important decisions:
 -   Improve multilingual support and accessibility.
 -   Deploy with monitoring, rate limiting, and security controls.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, bug reports, and suggestions are welcome.
 
@@ -295,13 +295,13 @@ Contributions, bug reports, and suggestions are welcome.
 4.  Run the available tests.
 5.  Open a pull request describing the change.
 
-## 📄 License
+## License
 
 No license is specified here. Add a `LICENSE` file and update this
 section once the project license has been selected. Until then, reuse
 and redistribution permissions should not be assumed.
 
-## 👩‍💻 Project
+## Project
 
 **CloneProof AI**\
 Repository:
